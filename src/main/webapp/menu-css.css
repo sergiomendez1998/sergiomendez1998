@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+.content{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -50%);
+    text-align: center;
+    z-index: 900;
+    width: 1350px;
+    text-align: match-parent;
+    padding: 32px 32px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: transparent;
+    border-radius: 25px;
+}
+.card{
+
+     background:linear-gradient(45deg,#FF00FF, #0ABFBC);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    content: ' ';
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+
+
+}
+.buttons{
+   
+  text-align: right;
+    
+    
+}
+
+.alumnos{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -300%);
+    text-align: center;
+    width: 1350px;
+    text-align: center;
+    padding: 32px 32px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 25px;
+  
+}
+

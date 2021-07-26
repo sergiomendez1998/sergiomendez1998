@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Update Data</title>
+        <link rel="stylesheet" href="menu-css.css"  type="text/css" />
+    </h:head>
+    <h:body>
+
+
+
+        <h:panelGrid columns="4" >
+
+            <p:outputLabel value="First Name: "/>
+            <p:inputText id="fistName"
+                         value="#{alumnoControlador.newAlumno.nombre}"
+                         readonly="#{facesContext.renderResponse}"
+                         />
+
+            <p:outputLabel value="Last Name: "/>
+            <p:inputText id="lastname"
+                         value="#{alumnoControlador.newAlumno.apellido}"
+                         readonly="#{facesContext.renderResponse}"
+                         />
+
+            <p:outputLabel value="Age :"/>
+            <p:inputNumber id="edad"
+                           value="#{alumnoControlador.newAlumno.edad}"
+                           readonly="#{facesContext.renderResponse}"
+                           />
+
+            <p:outputLabel for="date" value="Date of Birth:" />
+            <p:calendar id="date" value="#{alumnoControlador.newAlumno.fechaNacimiento}"
+                        readonly="#{facesContext.renderResponse}"
+                        />
+
+            <p:outputLabel value="Family :"/>
+            <p:inputText  id ="familia"
+                          value="#{alumnoControlador.newAlumno.familia}"
+                          />
+
+            <p:outputLabel for="option" value="Grade :"/>
+            <p:inputText id="option" value="#{alumnoControlador.newAlumno.grado}"/>
+
+                <!--
+                                        
+                
+                                       
+                
+                                        <p:outputLabel value="Wieght :"/>
+                                        <p:inputText  id ="peso" 
+                                                      value="#{alumnoControlador.peso}"
+                                                      required="true"
+                                                      placeholder="peso"
+                                                      requiredMessage="this field 'wieght' is required"/>
+                
+                                        <p:outputLabel value=" Tall:"/>
+                                        <p:inputText  id ="Altura"
+                                                      value="#{alumnoControlador.altura}"
+                                                      required="true" 
+                                                      placeholder="altura"
+                                                      requiredMessage="this field 'tall' is required"/>
+                
+                                        <p:outputLabel value="Family :"/>
+                                        <p:inputText  id ="familia"
+                                                      value="#{alumnoControlador.familia}"
+                                                      required="true"
+                                                      placeholder="familia"
+                                                      requiredMessage="this field 'family' is required" />
+                
+                                        <p:outputLabel value="Sister in Charged:"/>
+                                        <p:inputText  id ="madreEncargada"
+                                                      value="#{alumnoControlador.madreEncargada}"
+                                                      required="true"
+                                                      placeholder="madre encargada"
+                                                      requiredMessage="this field  'sister in charged' is required"/>
+                
+                                        <p:outputLabel for="option" value="Grade :"/>
+                                        <p:selectOneMenu id="option" value="#{alumnoControlador.grado}">
+                
+                                            <f:selectItem itemLabel="Select One" itemValue="Options"/>
+                                            <f:selectItem itemLabel="1st Year"  itemValue="Primer Año"/>
+                                            <f:selectItem itemLabel="2nd Year" itemValue="Segundo Año"/>
+                                            <f:selectItem itemLabel="3rd Year" itemValue="Tercer Año"/>
+                                            <f:selectItem itemLabel="4th Year" itemValue="Cuarto Año"/>
+                                            <f:selectItem itemLabel="5th Year" itemValue="Quinto Año"/>
+                
+                                            <f:facet name="footer">
+                                                <p:divider styleClass="p-mt-0" />
+                                                <h:outputText value="Available Grades" style="font-weight:bold;"/>
+                                            </f:facet>
+                                        </p:selectOneMenu>
+                
+                
+                                        <p:outputLabel value="Cause of the Appointment  :" />
+                                        <p:inputTextarea  id ="razonCita" 
+                                                          value="#{alumnoControlador.razonCita}"
+                                                          required="true" 
+                                                          placeholder="cause de la cita"
+                                                          requiredMessage="this field 'cause of the appoitment' is required"/>
+                
+                
+                                        <p:outputLabel for="dateI" value="Date Request:"/>
+                                        <p:datePicker id="dateI" 
+                                                      value="#{alumnoControlador.fechaIngreso}" 
+                                                      pattern="dd-MM-yyyy"
+                                                      required="true"
+                                                      showIcon ="true"                                     
+                                                      showButtonBar="true" mask="true"
+                                                      requiredMessage="this field 'date request' is required"/>-->
+
+        </h:panelGrid>
+
+    </h:body>
+</html>
+
