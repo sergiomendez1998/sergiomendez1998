@@ -1,4 +1,3 @@
-[![MasterHead](https://media.licdn.com/dms/image/D4D16AQFWnX3MeQ5FAg/profile-displaybackgroundimage-shrink_350_1400/0/1710778985516?e=1721865600&v=beta&t=gMyPDPEA-7OJgNrWiqayRPEvwK8lmRSBK5aYCdjsOgI)](https://rishavchanda.io)
 <h1 align="center">Hi 👋, I'm Sergio Mendez</h1>
 <h3 align="center">A passionate Java Backend Developer from Guatemala</h3>
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/media/7ed7d5ca074b48b328150e5a231e8d1f.gif">
